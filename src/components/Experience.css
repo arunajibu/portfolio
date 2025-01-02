@@ -1,0 +1,37 @@
+/* Experience.css */
+
+.experience-section {
+    padding: 4em 1em;
+    background-color: #ffffff;
+  }
+  
+  .experience-section h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  
+  .experience-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+  
+  .experience-item {
+    border: 1px solid #ddd;
+    padding: 1.5em;
+    border-radius: 10px;
+    background: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .experience-item h3 {
+    color: #2E7D32;
+    margin-bottom: 0.5em;
+  }
+  
+  .experience-item p {
+    margin: 0.5em 0;
+    line-height: 1.5;
+  }
+  

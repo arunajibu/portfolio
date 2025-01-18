@@ -8,13 +8,7 @@ const Contact = () => {
       <p>
         LinkedIn:{" "}
         <a href="https://www.linkedin.com/in/aruna-vasanth-5a0438229/" target="_blank" rel="noreferrer">
-          Your LinkedIn
-        </a>
-      </p>
-      <p>
-        GitHub:{" "}
-        <a href="https://github.com/your-username" target="_blank" rel="noreferrer">
-          Your GitHub
+          Aruna Vasanth
         </a>
       </p>
     </section>

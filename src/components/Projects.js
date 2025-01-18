@@ -4,8 +4,8 @@ const projects = [
   {
     name: "Calculator App(strengthening React Basics)",
     description: "A simple calculator application where users can perform basic arithmetic operations.Also write tests using Jest and react testing library",
-    github: "https://arunajibu.github.io/calculator/",
-    demo: "#"
+    github: "https://github.com/arunajibu/calculator.git",
+    demo: "https://arunajibu.github.io/calculator/"
   },
  /* {
     name: "User Cards(Props and State Management)",
@@ -16,14 +16,14 @@ const projects = [
   {
     name: "Weather App(working with APIs)",
     description: "A web app that displays real-time weather data.",
-    github: "https://github.com/your-username/weather-app",
-    demo: "#"
+    github: "https://github.com/arunajibu/weather-app.git",
+    demo: "https://github.com/your-username/weather-app"
   },
   {
     name: "Task Manager",
     description: "A React app to manage tasks efficiently.",
-    github: "https://arunajibu.github.io/task-manager/",
-    demo: "#"
+    github: "https://github.com/arunajibu/task-manager.git",
+    demo: "https://arunajibu.github.io/task-manager/"
   },
   /*{
     name: "Registration Form(Forms and Validations)",

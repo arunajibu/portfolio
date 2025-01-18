@@ -17,7 +17,7 @@ const projects = [
     name: "Weather App(working with APIs)",
     description: "A web app that displays real-time weather data.",
     github: "https://github.com/arunajibu/weather-app.git",
-    demo: "https://github.com/your-username/weather-app"
+    demo: "https://github.com/arunajibu/weather-app"
   },
   {
     name: "Task Manager",

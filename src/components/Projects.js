@@ -17,13 +17,13 @@ const projects = [
     name: "Weather App(working with APIs)",
     description: "A web app that displays real-time weather data.",
     github: "https://github.com/arunajibu/weather-app.git",
-    demo: "https://github.com/arunajibu/weather-app"
+    demo: "https://arunajibu.github.io/weather-app"
   },
   {
     name: "Task Manager",
-    description: "A React app to manage tasks efficiently.",
-    github: "https://github.com/arunajibu/task-manager.git",
-    demo: "https://arunajibu.github.io/task-manager/"
+    description: "A React app to manage tasks efficiently using Vite saved tasks are stored in local storage.",
+    github: "https://github.com/arunajibu/task-manager-vite.git",
+    demo: "https://arunajibu.github.io/task-manager-vite"
   },
   /*{
     name: "Registration Form(Forms and Validations)",
@@ -81,7 +81,7 @@ const Projects = () => {
             <p>{project.description}</p>
             <a href={project.github} target="_blank" rel="noreferrer">
               GitHub Repo
-            </a>
+            </a><br></br>
             <a href={project.demo} target="_blank" rel="noreferrer">
               Live Demo
             </a>

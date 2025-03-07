@@ -25,12 +25,13 @@ const projects = [
     github: "https://github.com/arunajibu/task-manager-vite.git",
     demo: "https://arunajibu.github.io/task-manager-vite"
   },
-  /*{
-    name: "Registration Form(Forms and Validations)",
-    description: "A registration form where users enter their name,email and password.The form validates inputs and displays error messages necessary.",
-    github: "https://github.com/your-username/task-manager",
-    demo: "#"
+  {
+    name: "Covid-19 Statistics Dashboard",
+    description: "A react app using vite.",
+    github: "https://github.com/arunajibu/covid-statistics.git",
+    demo: "https://arunajibu.github.io/covid-statistics"
   },
+  /*
   {
     name: "Blog App(Routing with react router)",
     description: "Blog APP - Routing with react router",

@@ -27,7 +27,7 @@ const projects = [
   },
   {
     name: "Covid-19 Statistics Dashboard",
-    description: "A react app using vite.",
+    description: "A react app using vite to learn useeffect.",
     github: "https://github.com/arunajibu/covid-statistics.git",
     demo: "https://arunajibu.github.io/covid-statistics"
   },

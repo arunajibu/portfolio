@@ -1,5 +1,5 @@
 .header {
-    background: linear-gradient(135deg, #4CAF50, #2E7D32);
+    background: linear-gradient(135deg, #00bcd4, #00bcd4);
     color: white;
     padding: 2em 1em;
     text-align: center;
@@ -38,6 +38,6 @@
   
   nav a:hover {
     background: white;
-    color: #2E7D32;
+    color: #00bcd4;
   }
   

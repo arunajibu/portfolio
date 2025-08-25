@@ -5,24 +5,23 @@ const About = () => {
     <section id="about" className="section">
       <h2>About Me</h2>
       <p>
-      I'm Aruna, a full-stack and front-end developer with expertise in 
-      building responsive, user-centric web applications. Skilled in HTML, CSS, 
-      JavaScript, React, PHP, and MySQL, I bring both creative design and robust 
-      back-end solutions to the table.
+        Hi, I’m <strong>Aruna Vasanth</strong>, a passionate Software Engineer/Full Stack Developer with a strong experience in
+        building modern web applications. I specialize in <strong>PHP, HTML, CSS, JavaScript, WordPress,Shopify</strong>, 
+        and <strong>React JS</strong>, and I have extensive experience working with databases like 
+        <strong> MySQL</strong>.I enjoy crafting scalable, user-friendly,and efficient applications while constantly learning new technologies to stay ahead in the rapidly 
+        evolving web development landscape.
       </p>
       <p>
-        Currently, I am expanding my skills through a training program in ServiceNow, 
-        which is helping me gain experience in enterprise-level service management solutions. 
-        In addition to that, I am actively developing my personal skills in React by working on 
-        various personal projects.
+        My recent work involves creating interactive dashboards, integrating APIs, and modernizing UI/UX for 
+        enterprise applications. I am proficient in full-stack development, with hands-on experience in 
+        <strong> Node.js, Express, and RESTful APIs</strong>, and I’m always excited to tackle complex challenges 
+        and deliver impactful solutions.
       </p>
       <p>
-        My focus is on crafting seamless, intuitive interfaces while ensuring the performance and 
-        scalability of the underlying systems. Whether it's enhancing the user experience, 
-        optimizing server-side functionality, or exploring new technologies, 
-        I thrive on solving complex challenges with elegant solutions.
+        I thrive in collaborative environments, love solving problems, and always aim to deliver clean, 
+        maintainable, and efficient code. Outside of coding, I enjoy exploring new technologies, learning AI/ML, 
+        and working on creative projects that combine design and technology.
       </p>
-
     </section>
   );
 };

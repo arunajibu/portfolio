@@ -1,37 +1,125 @@
-/* Experience.css */
-
 .experience-section {
-    padding: 4em 1em;
-    background-color: #ffffff;
+  padding: 5rem 2rem;
+  background-color: #1e1e1e; /* Dark background */
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 2rem auto;
+}
+
+.experience-section h2 {
+  color: #00bcd4; /* Accent color */
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.experience-item {
+  background-color: #2a2a2a;
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.7);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.experience-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.9);
+}
+
+.experience-item h3 {
+  color: #e0e0e0;
+  margin-bottom: 0.5rem;
+}
+
+.experience-item p, .experience-item ul {
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.experience-item ul {
+  margin: 0.5rem 0 0 1.2rem;
+}
+
+.experience-item li {
+  margin-bottom: 0.4rem;
+}
+
+/* Collapsed / Expanded lists */
+.experience-item ul.collapsed {
+  max-height: 120px;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.experience-item ul.expanded {
+  max-height: 1000px;
+  transition: max-height 0.5s ease;
+}
+
+/* Fade-in animation */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
   }
-  
-  .experience-section h2 {
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 1em;
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  .experience-container {
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
+}
+
+.experience-item li.fade-in {
+  opacity: 0;
+  animation: fadeInUp 0.5s forwards;
+}
+
+/* Button styling with modern hover effect */
+.experience-item button {
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 12px;
+  background-color: var(--accent-color);
+  color: var(--bg-dark);
+  cursor: pointer;
+  font-size: 0.95rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+
+  /* Card-like effect */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-item button:hover {
+  background-color: #00a6c0; /* slightly darker cyan */
+  transform: translateY(-3px); /* lift effect */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5); /* stronger shadow */
+}
+
+/* Arrow rotation */
+.arrow {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.arrow.rotate {
+  transform: rotate(180deg);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .experience-section {
+    padding: 3rem 1rem;
   }
-  
+
   .experience-item {
-    border: 1px solid #ddd;
-    padding: 1.5em;
-    border-radius: 10px;
-    background: #f9f9f9;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem 1.5rem;
   }
-  
-  .experience-item h3 {
-    color: #2E7D32;
-    margin-bottom: 0.5em;
-  }
-  
-  .experience-item p {
-    margin: 0.5em 0;
-    line-height: 1.5;
-  }
-  
+}

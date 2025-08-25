@@ -1,27 +1,25 @@
 import React from "react";
-import "./Skills.css";
+
+const skillsData = [
+  { name: "React JS" },
+  { name: "JavaScript" },
+  { name: "PHP" },
+  { name: "MySQL" },
+  { name: "HTML & CSS" },
+  { name: "WordPress" },
+  { name: "Shopify" }
+];
 
 const Skills = () => {
   return (
-    <section id="skills" className="skills-section">
+    <section id="skills" className="section">
       <h2>Skills</h2>
-      <div className="skills-container">
-        <div className="skill">
-          <h3>Frontend Development</h3>
-          <p>HTML, CSS, JavaScript, React</p>
-        </div>
-        <div className="skill">
-          <h3>Backend Development</h3>
-          <p>PHP, Node.js, Express.js</p>
-        </div>
-        <div className="skill">
-          <h3>Database Management</h3>
-          <p>MySQL, MongoDB</p>
-        </div>
-        <div className="skill">
-          <h3>Tools & Platforms</h3>
-          <p>Git, GitHub, Bitbucket, Docker</p>
-        </div>
+      <div className="skills-grid">
+        {skillsData.map((skill, index) => (
+          <div key={index} className="skill-card">
+            <h3>{skill.name}</h3>
+          </div>
+        ))}
       </div>
     </section>
   );

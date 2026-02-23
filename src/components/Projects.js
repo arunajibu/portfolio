@@ -1,6 +1,11 @@
 import React from "react";
 
 const projectsData = [
+        {
+    name: "Rental Property Booking Web Application",
+    description: "Developed a full-stack rental property booking application using React and Supabase with role-based authentication (Admin/User).",
+    demo: "https://pgrentalbooking.netlify.app/"
+  },
       {
     name: "Portfolio Website",
     description: "A modern portfolio built with React.",

@@ -6,7 +6,7 @@ const About = () => {
       <h2>About Me</h2>
       <p>
         Hi, I’m <strong>Aruna Vasanth</strong>, a passionate Software Engineer/Full Stack Developer with a strong experience in
-        building modern web applications. I specialize in <strong>PHP, HTML, CSS, JavaScript, WordPress,Shopify</strong>, 
+        building modern web applications. I specialize in <strong>PHP, HTML, CSS, JavaScript, WordPress, Zoho CRM,Shopify</strong>, 
         and <strong>React JS</strong>, and I have extensive experience working with databases like 
         <strong> MySQL</strong>.I enjoy crafting scalable, user-friendly,and efficient applications while constantly learning new technologies to stay ahead in the rapidly 
         evolving web development landscape.
